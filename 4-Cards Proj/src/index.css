@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+  color: white;
+}
+
+.parent{
+  height: 100;
+  width: 100;
+  background-color: #1111;
+  color: #333333;
+  padding: 30px;
+}
+
+.card{
+   height: 400px;
+   width: 400px;
+   background-color: white;
+   border-radius: 20px; 
+   padding: 30px;
+}
+
+.card .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top img{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid #dadada;
+}

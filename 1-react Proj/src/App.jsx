@@ -9,6 +9,7 @@ const App = () => {
       </div>
       <div id="batija">
         <h1>kya</h1>
+        <h3></h3>
       </div>
     </>
   );
