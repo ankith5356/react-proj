@@ -11,9 +11,7 @@ const App = () => {
         <h1>kya</h1>
         <h3></h3>
         <h5>Kitna time</h5>
-       <p>Kitne baar tik karna hai</p>
-
-       <p>Chi chi</p>
+       <p>nhk</p>
       </div>
     </>
   );
