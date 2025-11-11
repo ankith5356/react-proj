@@ -12,6 +12,8 @@ const App = () => {
         <h3></h3>
         <h5>Kitna time</h5>
        <p>Kitne baar tik karna hai</p>
+
+       <p>Chi chi</p>
       </div>
     </>
   );
