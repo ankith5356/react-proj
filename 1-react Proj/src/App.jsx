@@ -14,7 +14,7 @@ const App = () => {
        <p>nhk</p>
        <label htmlFor="iihh"></label>
        <p>ko</p>
-       <label htmlFor=""></label>
+       
       </div>
     </>
   );
