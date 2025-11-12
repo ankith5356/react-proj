@@ -13,7 +13,7 @@ const App = () => {
         <h5>Kitna time</h5>
        <p>nhk</p>
        <label htmlFor="iihh"></label>
-       <p>yo</p>
+       <p>ok</p>
       </div>
     </>
   );
