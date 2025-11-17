@@ -4,14 +4,12 @@ import User from "./components/User";
 
 
 const App = () => {
-  let arr=[6,5,3,34,62,85]
+  let arr=[6,5,62,85]
   return (
     <div className="parent">
-
-      <Card />
-      <User name= {arr[3]}/>
-      <User name='Ankit'/>
-      <User name='Manu'/>
+      {arr.map(function(item){
+        return <h1>{item+3}</h1>;
+      })}
     </div>
   );
 };

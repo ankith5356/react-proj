@@ -13,13 +13,15 @@ html,body {
 }
 
 .parent{
-  height: 100;
-  width: 100;
+  height: 100%;
+  width: 100%;
   background-color: #1111;
   color: #0c0b0b;
   padding: 30px;
   display: flex;
   gap: 28px;
+  color: white;
+  font-weight:900;
 }
 
 .card{
