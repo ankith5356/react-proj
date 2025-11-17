@@ -1,12 +1,67 @@
-# React + Vite
+📘 Job Listing UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based Job Listing Interface where job details are dynamically rendered using reusable components and clean UI styling.
 
-Currently, two official plugins are available:
+🚀 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project displays job openings using a Card-based UI. All job information is stored inside an array of objects, and each job is rendered dynamically using the map() function in React.
 
-## Expanding the ESLint configuration
+Each Card component receives data through props, such as:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Company name
+
+Company logo
+
+Job role
+
+Salary
+
+Date posted
+
+Tags (Full-time / Level)
+
+Location
+
+The Card layout is divided into three structured sections:
+
+Top: Logo + Save button
+
+Center: Company name, date posted, job title, and tags
+
+Bottom: Pay, location, and Apply button
+
+A unique key is added to each mapped element to help React efficiently track list items.
+
+Styling is done using clean CSS with Flexbox to ensure a modern, neat, and responsive UI.
+
+🛠️ Technologies Used
+
+React.js
+
+JavaScript (ES6+)
+
+CSS / Flexbox
+
+Lucide Icons
+
+📂 Features
+
+✔ Dynamic rendering of job cards
+✔ Reusable Card component
+✔ Uses props for clean data flow
+✔ Flexbox-based UI layout
+✔ Clean and modern design
+✔ Fully responsive layout
+
+📁 Project Structure
+src/
+│── components/
+│    └── Card.jsx
+│
+│── App.jsx
+│── index.css
+└── main.jsx
+
+📦 How to Run
+npm install
+npm run dev
