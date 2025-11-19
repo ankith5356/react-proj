@@ -12,22 +12,9 @@ html,body {
   color: white;
 }
 
-.btn{
-    background-color:red;
-    width: fit-content;
-    padding: 10px 20px;
-    border-radius: 10px;
-    margin: 10px;
-}
 
-.head{
-    background-color: aquamarine;
-    padding: 10px;
-    margin:8px
-}
 
-.head button{
-  padding: 5px;
-  margin:  10px;
-  border-radius: 5px;
-}
+
+
+
+
