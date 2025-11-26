@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from './components/Section1/Navbar'
-import Navbar1 from './components/Section2/Navbar'
+import Section1 from './components/Section1/Section1'
+import Section2 from './components/Section2/Section2'
 
 const App = () => {
   return (
-    <div >
-     <Navbar />
-     <Navbar1 />
+    <div>
+     <Section1 />
+     <Section2 />
     </div>
    
   )
