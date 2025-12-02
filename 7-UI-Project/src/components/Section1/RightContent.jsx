@@ -3,7 +3,7 @@ import RightCard from './RightCard'
 
 const RightContent = () => {
   return (
-    <div className='h-full p-6 w-3/4 bg-blue-200'>
+    <div className='h-full p-6 w-3/4'>
       <RightCard/>
       </div>
   )
