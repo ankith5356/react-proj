@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+  color: white;
+}
+
+h1{
+  padding: 10px 20px;
+  margin: 20px;
+  background-color: rgb(98, 92, 92);
+  border-radius: 10px;
+  width: fit-content;
+}
+
+button{
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: rgb(240, 229, 229);
+  border-radius: 10px;
+}
