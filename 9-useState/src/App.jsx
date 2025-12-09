@@ -2,19 +2,27 @@ import React from 'react'
 import { useState } from 'react'
 
 const App = () => {
-  const [user, setUser] = useState("Ankit")
-  const [num, setNum] = useState(20)
 
-function changeA(){
-  setUser("Nirri")
-  setNum(48)
-}
+  const [num, setNum] = useState(0)
+
+  function increaseNum(){
+    setNum(num+1)
+  }
+
+    function decreaseNum(){
+    setNum(num-1)
+  }
+
+  function jumpBy5(){
+    setNum(num+5)
+  }
 
   return (
     <div>
-      <h1>Name of user is {user} <br /> </h1>
-      <h1>Value Of Num is {num}</h1>
-      <button onClick={changeA}>Click Me</button>
+      <h1>{num}</h1>
+      <button onClick={increaseNum}>Increase By 1</button>
+      <button onClick={decreaseNum}>Decrease By 1</button>
+      <button onClick={jumpBy5}>Jump By 5</button>
     </div>
   )
 }
