@@ -2,14 +2,16 @@ import React, { useState } from 'react'
 
 const App = () => {
 
-  const [num, setNum] = useState({user:'Ankit',age:22})
+  const [num, setNum] = useState(4)
 
   const onChange=()=>{
-    setNum(prev=>({ ...prev,age:23,user:'Babe'}))
+    setNum(prev=>(prev+1))
+    setNum(prev=>(prev+1))
+    setNum(prev=>(prev+1))
   }
   return (
     <div>
-      <h1>{num.user},{num.age}</h1>
+      <h1>{num}</h1>
       <button onClick={onChange}>Click Here </button>
     </div>
   )
