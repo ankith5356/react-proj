@@ -1,0 +1,17 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  background-color: #111;
+  color: aliceblue;
+  font-size: larger;
+}
+
+input,button{
+  padding: 10px 20px;
+  margin: 10px;
+  color: gray;
+}
