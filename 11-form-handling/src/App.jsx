@@ -2,14 +2,14 @@ import React from 'react'
 
 const App = () => {
 
-  const onSubmit=(e)=>{
+  const submitHandler=(e)=>{
     e.preventDefault()
     console.log("Form Submitted")
   }
   return (
     <div>
       <form onSubmit={(e)=>{
-        onSubmit(e)
+        submitHandler(e)
       }}>
         <input type="text" placeholder='Enter Your Name'/>
         <button>Submit</button>
