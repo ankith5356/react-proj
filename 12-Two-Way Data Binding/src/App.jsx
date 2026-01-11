@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const App = () => {
 
+  const [title, setTitle] = useState('bsdk')
   const onSubmit=(e)=>{
     e.preventDefault()
-    console.log("Form Submitted")
+    console.log("Form Submitted by", title)
+
+    setTitle('')
   }
   return (
     <div>
@@ -12,8 +15,9 @@ const App = () => {
         onSubmit(e)
       }}>
         <input type="text" placeholder='Enter Your Name'
+        value={title}
         onChange={(e)=>{
-          console.log(e.target.value)
+          setTitle(e.target.value)
         }}
         />
         <button>Submit</button>
