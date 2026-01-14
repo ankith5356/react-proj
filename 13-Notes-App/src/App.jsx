@@ -94,6 +94,4 @@ const App = () => {
 };
 
 export default App;
-// https://youtu.be/3LRZRSIh_KE?t=23367
-// https://youtu.be/3LRZRSIh_KE?t=25329
-// https://youtu.be/3LRZRSIh_KE?t=25849
+
